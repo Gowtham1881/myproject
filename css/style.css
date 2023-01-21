@@ -1,0 +1,301 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+h1{
+   font-size: 60px;
+   font-weight: 400;
+
+}
+a {
+  color: #4438d7;
+  text-decoration: underline;
+}
+
+hr{
+  color: white;
+}
+
+
+/* infobar*/
+#fixednb{
+   background:  #4438d7;
+   color: rgb(234, 231, 250);
+   font-size: 1rem;
+ 
+  
+}
+@media (min-width: 300px) {
+  #xa {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #xa {
+    display: block;
+  }
+}
+ /*navigation bar*/
+.navbar{
+    background: #5c51e8;
+    
+}
+.navbar-brand{
+  font-weight: 600;
+  color: white;
+  font-size: 1.5rem;
+}
+.nav-link{
+   font-weight: 50;
+  font-size: 1.5rem;
+  color: white;
+}
+/*header*/
+header{
+
+   background-color: #5c51e8;
+   background-image: url(../images/brd.png);
+}
+#simp{
+ 
+  background-color: #5c51e8;
+    
+}
+#simp h5{
+  font-weight: 100;
+}
+
+#simp h1{
+    text-align: center;
+    font-size: 5vw;
+    width: 100%;
+    color:white;
+}
+ #simp h5{
+   
+    color: white;
+    text-align: center;
+ }
+ #simp form{
+   
+  max-width: 30rem;
+  margin:0 auto; 
+    height:20px;
+   align-items: center;
+  border-color: transparent;
+  font-size: 11pt; 
+  font-weight: 100;
+ 
+
+ 
+ }
+ 
+ #simp button{
+  width: 50%;
+  height:auto;
+   
+ }
+ 
+ #simp ::placeholder{
+    color: white;
+    font-weight: 100px;
+ }
+/* 2-nd page*/
+ #cardb{
+  background-color: #fafafa;
+}
+
+ #stat{
+    font-size:50px;
+    font-weight: 200px;
+ }
+ #gry{
+    color: gray;
+    font-weight: 200px;
+    font-size:50px;
+ }
+ #gry2{
+   color: rgb(128, 128, 128);
+  font-size: 20px;
+   font-weight: 300px;
+
+ }
+ #blc{
+   font-weight: 300px;
+   font-size: 20px;
+  
+   
+
+ }
+ #blu{
+    color:hsl(245deg 71% 61%);
+    font-weight: 300px;
+    
+ }
+ 
+.card-text{
+   font-size: 20px;
+   
+}
+ 
+ /* financial page*/
+ #wtcard{
+  width:420px;
+  height:auto;
+  border-color: transparent; 
+  border-radius: 10px;
+  background-color: rgb(250,250,250);
+  margin-bottom: 10px;
+}
+
+ #carde{
+   background-image: linear-gradient(rgb(86, 75, 227,1),rgb(86, 75, 227,1), rgba(241, 240, 250,0.5)),
+   url("../images/bg.jpg");
+
+ background-size: cover;
+ background-position: center;
+ width:420px;
+ height:auto;  
+ color: white;
+ border-color: transparent; 
+ border-radius: 10px;
+ margin-bottom: 10px;
+
+ }
+
+ /*final card page*/
+ #lc{
+   background: #ffffff;
+ }
+/*3 last cards*/
+ #myc {
+ background-color: #eeeefe;
+ border-radius: 20px;
+ height: 300px;
+
+ }
+ #myc p{
+   font-size: 20px;
+   color: #5c5c65;
+ }
+
+ #datae{
+ 
+   background-color:#fafafa;
+   border-radius: 20px;
+   height: 300px;
+   font-size: 20px;
+   color: #5c5c65;
+  
+ }
+ #datae h2{
+  color: #000;
+
+ }
+ /*app*/
+ #app{
+   background: #ffffff;
+
+ }
+ #app button{
+   background: #eeeefe;
+   color: #5348c7;
+   border-radius: 10px;
+   border-color: transparent;
+   font-size: 20px;
+
+ }
+ 
+ .pos{
+      position: relative;
+      border: 1px solid transparent;
+      background-color: #5c51e8;
+      width: 100%;
+      height: 50px;
+    }
+
+    .imp{
+      position: absolute;
+      left:50%;
+      
+      bottom: 0px;
+      
+
+    }
+    @media (min-width: 300px) {
+      .impimage {
+        display: none;
+      }
+    }
+    @media (min-width: 992px) {
+      .impimage {
+        display: block;
+      }
+    }
+    .impimage{
+      height:500px;
+      width: 550px;
+      
+    }
+ 
+ 
+
+ /* footer */
+ footer{
+  background: rgb(27 27 27);
+  color: white;
+  height: auto;
+ }
+ footer button{
+  background: rgb(27 27 27);
+  color: white;
+  border: transparent;
+
+ }
+
+#myarro{
+  font-size:70px;
+}
+ .btn{
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+ }
+ 
+ .dropdown-menu{
+  background-color: rgb(27 27 27);
+  
+
+ }
+
+ .dropdown-item{
+  color: #f6f6f6;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+ }
+  footer h1{
+    font-size: 60px;
+    font-weight: 600;
+  }
+   footer .text-muted{
+    font-size: 18px;
+   }
+    
+   footer li{
+    font-size: 18px;
+    font-weight: 100;
+    padding: 1rem ;
+    padding-left: 0;
+    text-align: left;
+
+   }
+
+   footer h5{
+    padding-bottom: 20px;
+   }
+
+   /*copy rights*/
+   #copr{
+    background:rgb(27 27 27);
+    color: white;
+   }

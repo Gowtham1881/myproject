@@ -1,0 +1,24 @@
+ <div class=" col-12 col-sm-6 col-md-3 " id="datae">
+          <p class="p-4 "></p>
+            <h2 class="pt-5">Private</h2>
+       
+        </div>
+
+
+
+        <div class="container-fluid"id="fixednb">
+          <div class="row">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex pt-2 ps-4">
+                  <p></p><p class="ps-2"></p>
+                  </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-9 d-flex pt-2 justify-content-end">
+                          <p></p>
+                          <p class="ps-3"></li></p>
+                          <p class="ps-3 pe-3 "></p>
+                      </div>
+          </div>
+       </div>
+
+
+
+       https://laravel.com/docs/9.x/helpers -helpers(may be use full later)
